@@ -1,10 +1,17 @@
 # clojure_console_ttt
 
-A Clojure library designed to ... well, that part is up to you.
+Play a simple tic tac toe game
 
 ## Usage
 
-FIXME
+to test
+
+lein deps
+lein spec
+
+to run
+
+lein trampoline run
 
 ## License
 
