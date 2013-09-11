@@ -8,7 +8,6 @@
   :profiles {:dev {:dependencies [[speclj "2.5.0"]]}}
   :dependencies [[speclj "2.5.0"]
                  [org.clojure/clojure "1.5.1"]
-                 [ttt_clojure "0.0.0"]]
+                 [ttt_clojure "1.0.0-SNAPSHOT"]]
   :plugins [[speclj "2.5.0"]]
-  :main console_ttt.main
-  )
+  :main console_ttt.main)

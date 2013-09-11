@@ -1,6 +1,7 @@
 (ns console_ttt.main
-  (:require [ttt.game :refer :all :as game])
-  (:require [console_ttt.ui :refer :all :as ui]))
+  (:require [ttt.game :refer [play-game]]
+            [console_ttt.ui :refer [console]]
+            [console_ttt.new-ui :refer [ui-console]]))
 
 (defn -main [& args]
-  (game/play-game ui/console))
+  (play-game ui-console))
