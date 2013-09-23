@@ -40,7 +40,7 @@
      (println (str "| " (clojure.string/join " | " row) " |"))))
 
 (defn- ask-user-move []
-  (prompt "Enter your move: "))
+  (Integer. (prompt "Enter your move: ")))
 
 (defn ui-console []
   (reify
